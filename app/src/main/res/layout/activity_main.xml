@@ -11,9 +11,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Second Screen"
-        app:layout_editor_absoluteX="100dp"
-        app:layout_editor_absoluteY="504dp" />
+        android:text="Go to Second Screen" />
 
     <TextView
         android:id="@+id/textView2"
