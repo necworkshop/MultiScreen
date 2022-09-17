@@ -4,23 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivitySecond"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ActivitySecond">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
         android:text="Second Screen" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go Back"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="456dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Go Back" />
+
+
+
+
 
 </LinearLayout>
